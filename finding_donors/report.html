@@ -13993,51 +13993,86 @@ It is a ratio of true positives(words classified as spam, and which are actually
 <p><strong>Answer:</strong></p>
 <p><strong>1- AdaBoost</strong></p>
 <ul>
-<li>Describe one real-world application in industry where the model can be applied. <h2 id="----AdaBoost-most-common-use-case-is-in-face-detection-applications.-One-specific-example-in-this-field-is-feature-selection.-In-each-AdaBoost-iteration,-a-random-set-of-features-(filters)-is-selected.-At-the-end,-AdaBoost-produces-the-best-set-of-features-to-be-used-for-trainning-and-prediction.[1]">  - AdaBoost most common use case is in face detection applications. One specific example in this field is feature selection. In each AdaBoost iteration, a random set of features (filters) is selected. At the end, AdaBoost produces the best set of features to be used for trainning and prediction.[1]<a class="anchor-link" href="#----AdaBoost-most-common-use-case-is-in-face-detection-applications.-One-specific-example-in-this-field-is-feature-selection.-In-each-AdaBoost-iteration,-a-random-set-of-features-(filters)-is-selected.-At-the-end,-AdaBoost-produces-the-best-set-of-features-to-be-used-for-trainning-and-prediction.[1]">&#182;</a></h2></li>
-<li>What are the strengths of the model; when does it perform well?<ul>
-<li>Easy to implement and tune.[2]</li>
-<li>Can be used for feature selection.[2]</li>
-<li>The final model is simple to understand and troubleshoot.[3]</li>
+<li><p>Describe one real-world application in industry where the model can be applied.</p>
+<ul>
+<li>AdaBoost most common use case is in face detection applications. One specific example in this field is feature selection. In each AdaBoost iteration, a random set of features (filters) is selected. At the end, AdaBoost produces the best set of features to be used for trainning and prediction. [1]</li>
 </ul>
 <hr>
 </li>
-<li>What are the weaknesses of the model; when does it perform poorly?<ul>
-<li>Outliers can greatly impact the performance.[4]</li>
-<li>Highly sensitive to noisy data.[4]</li>
+<li><p>What are the strengths of the model; when does it perform well?</p>
+<ul>
+<li>Easy to implement and tune. [2]</li>
+<li>Can be used for feature selection. [2]</li>
+<li>The final model is simple to understand and troubleshoot. [3]</li>
 </ul>
 <hr>
 </li>
-<li>What makes this model a good candidate for the problem, given what you know about the data?<h2 id="----Since-AdaBoost-by-default-uses-a-DecisionTreeClassifier,-it-inherits-the-same-advantages.-The-main-advantage-being-that-decision-tree-is-better-used-with-structured-data-such-as-our-data.--">  - Since AdaBoost by default uses a DecisionTreeClassifier, it inherits the same advantages. The main advantage being that decision tree is better used with structured data such as our data.  <a class="anchor-link" href="#----Since-AdaBoost-by-default-uses-a-DecisionTreeClassifier,-it-inherits-the-same-advantages.-The-main-advantage-being-that-decision-tree-is-better-used-with-structured-data-such-as-our-data.--">&#182;</a></h2></li>
+<li><p>What are the weaknesses of the model; when does it perform poorly?</p>
+<ul>
+<li>Outliers can greatly impact the performance. [4]</li>
+<li>Highly sensitive to noisy data. [4]</li>
+</ul>
+<hr>
+</li>
+<li><p>What makes this model a good candidate for the problem, given what you know about the data?</p>
+<ul>
+<li>Since AdaBoost by default uses a DecisionTreeClassifier, it inherits the same advantages. The main advantage being that decision tree is better used with structured data such as our data.  </li>
+</ul>
+<hr>
+</li>
 </ul>
 <p><strong>2- Logistic Regression</strong></p>
 <ul>
-<li>Describe one real-world application in industry where the model can be applied. <h2 id="----Logistic-Regression-can-be-used-in-marketing-for-predicting-whether-a-company's-subsidary-is-gaining-or-losing-based-on-their-operation-data.-[5]">  - Logistic Regression can be used in marketing for predicting whether a company's subsidary is gaining or losing based on their operation data. [5]<a class="anchor-link" href="#----Logistic-Regression-can-be-used-in-marketing-for-predicting-whether-a-company's-subsidary-is-gaining-or-losing-based-on-their-operation-data.-[5]">&#182;</a></h2></li>
-<li>What are the strengths of the model; when does it perform well?<ul>
-<li>Quite easy to understand.[6]</li>
-<li>It doesn't require tuning.[6]</li>
+<li><p>Describe one real-world application in industry where the model can be applied.</p>
+<ul>
+<li>Logistic Regression can be used in marketing for predicting whether a company's subsidary is gaining or losing based on their operation data. [5]</li>
+</ul>
+<hr>
+</li>
+<li><p>What are the strengths of the model; when does it perform well?</p>
+<ul>
+<li>Quite easy to understand. [6]</li>
+<li>It doesn't require tuning. [6]</li>
 <li>It works better when removing correlated features. [6]</li>
 </ul>
 <hr>
 </li>
-<li>What are the weaknesses of the model; when does it perform poorly?<ul>
-<li>Since Logistic Regression is a linear classifier, it doesn't work well when a non-linear solution is needed.[6]</li>
-<li>The data strucutre and presentation affects its performance.[6]</li>
+<li><p>What are the weaknesses of the model; when does it perform poorly?</p>
+<ul>
+<li>Since Logistic Regression is a linear classifier, it doesn't work well when a non-linear solution is needed. [6]</li>
+<li>The data strucutre and presentation affects its performance. [6]</li>
 </ul>
 <hr>
 </li>
-<li>What makes this model a good candidate for the problem, given what you know about the data?<h2 id="----Based-on-the-correlation-matrix-applied-before-the-one-hot-encoding,-the-features-are-not-strongly-correlated.--">  - Based on the correlation matrix applied before the one-hot-encoding, the features are not strongly correlated.  <a class="anchor-link" href="#----Based-on-the-correlation-matrix-applied-before-the-one-hot-encoding,-the-features-are-not-strongly-correlated.--">&#182;</a></h2></li>
+<li><p>What makes this model a good candidate for the problem, given what you know about the data?</p>
+<ul>
+<li>Based on the correlation matrix applied before the one-hot-encoding, the features are not strongly correlated.  </li>
+</ul>
+<hr>
+</li>
 </ul>
 <p><strong>3- Support Vector Machines (SVM)</strong></p>
 <ul>
-<li>Describe one real-world application in industry where the model can be applied. <h2 id="----SVM-is-used-in-face-detection.-The-algorithm-detects-whether-a-part-of-an-image-contains-a-face.-Then,-detected-faces-are-highlighted-by-square-boundaries.-[7]">  - SVM is used in face detection. The algorithm detects whether a part of an image contains a face. Then, detected faces are highlighted by square boundaries. [7]<a class="anchor-link" href="#----SVM-is-used-in-face-detection.-The-algorithm-detects-whether-a-part-of-an-image-contains-a-face.-Then,-detected-faces-are-highlighted-by-square-boundaries.-[7]">&#182;</a></h2></li>
-<li>What are the strengths of the model; when does it perform well?<ul>
-<li>Can guarantee achieving global minimum.[8]</li>
-<li>Works with both linear and non-linear problems.[8]</li>
+<li><p>Describe one real-world application in industry where the model can be applied.</p>
+<ul>
+<li>SVM is used in face detection. The algorithm detects whether a part of an image contains a face. Then, detected faces are highlighted by square boundaries. [7]</li>
+</ul>
+<hr>
+</li>
+<li><p>What are the strengths of the model; when does it perform well?</p>
+<ul>
+<li>Can guarantee achieving global minimum. [8]</li>
+<li>Works with both linear and non-linear problems. [8]</li>
 <li>Works well with high dimensional features. [8]</li>
 </ul>
 <hr>
 </li>
-<li>What are the weaknesses of the model; when does it perform poorly?<h2 id="----The-trainning-is-quite-expensive-with-large-datasets.[8]">  - The trainning is quite expensive with large datasets.[8]<a class="anchor-link" href="#----The-trainning-is-quite-expensive-with-large-datasets.[8]">&#182;</a></h2></li>
+<li><p>What are the weaknesses of the model; when does it perform poorly?</p>
+<ul>
+<li>The trainning is quite expensive with large datasets. [8]</li>
+</ul>
+<hr>
+</li>
 <li><p>What makes this model a good candidate for the problem, given what you know about the data?</p>
 <ul>
 <li>Given the data high dimensionality and relative medium size, SVC benefits seem to outweigh the shortcomings.  </li>
@@ -14718,10 +14753,10 @@ Based on personal experience, I believe the following features have the highest 
 My answer was:</p>
 <ol>
 <li><strong>age</strong> --&gt; [Close Match: ranked 3rd in model] </li>
-<li><strong>occupation</strong>  --&gt; [No match] </li>
+<li><strong>occupation</strong>  --&gt; [No Match] </li>
 <li><strong>education</strong> --&gt;  [Close Match: ranked 4th in model, assuming education is similar to education-num] </li>
-<li><strong>workplace</strong> --&gt; Actual [No match] </li>
-<li><strong>hours-per-week</strong> --&gt; Actual [Matched, ranked 5th in model] </li>
+<li><strong>workplace</strong> --&gt; [No Match] </li>
+<li><strong>hours-per-week</strong> --&gt; [Match, ranked 5th in model] </li>
 </ol>
 <p>In regards to the two features I missed. Honestly, I wasn't entirely sure what was meant by capital gain and capital loss which are the ones I didn't predict. I know these terms are used to describe a company financial assets but not for individuals. After searching these terms, it makes sense that these two features have the highest impact since people with low salaries might not have enough savings to buy assets. As a result, they will have low capital gain and perhaps high capital loss.</p>
 <p>As for the other features that I predicted correctly with slight error in ranking, I expected age to be the highest contributor. Nonetheless, young employees who actively engage in the stock market and the real-estate can easily gain more than senior employees who don’t invest. Furthermore, education-num and hours-per-week rankings were close to my predictions for the same reasons mentioned in Question 6.</p>
